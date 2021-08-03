@@ -67,6 +67,14 @@ module Acumatica
       Acumatica::Vendor
     end
 
+    def accounts
+      Acumatica::Account
+    end
+
+    def sub_accounts
+      Acumatica::SubAccount
+    end
+
     def sales_orders
       Acumatica::SalesOrder
     end
