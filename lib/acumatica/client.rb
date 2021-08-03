@@ -10,7 +10,7 @@ module Acumatica
   class Client
     include Singleton
 
-    API_VERSION = Acumatica.api_version #|| "17.200.001"
+    API_VERSION = Acumatica.api_version || "17.200.001"
 
     attr_accessor :url, :name, :password, :token, :debug
 
